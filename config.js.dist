@@ -1,0 +1,14 @@
+const config = {
+	accessKey: '',
+	destinationFile: 'D:\\Images\\Wallpapers\\Wallpaper (0)',
+	screenWidth: 1920,
+	screenHeight: 1080,
+	minScreenSizeTolerance: 15, // Percents
+	maxAttempts: 5,
+	safeSearch: 'Moderate',
+	terms: [
+		'wallpaper',
+	]
+};
+
+module.exports = config;

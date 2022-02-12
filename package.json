@@ -1,0 +1,19 @@
+{
+  "name": "random-wallpaper",
+  "version": "1.0.0",
+  "description": "Gets you a random wallpaper from Bing images API with the search terms you specified.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["wallpaper", "nodejs", "bing"],
+  "author": "Thomas Fagot",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "fs": "latest",
+    "node-bing-api": "^4.0.1",
+    "request": "latest",
+    "wallpaper": "^4.4.1"
+  }
+}
